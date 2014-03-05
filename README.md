@@ -14,7 +14,7 @@ We want to create a web app that serves as a mini IMDb. We'll be able to add mov
 
 ### Notes
 
-The basic outlines of your controllers and models (i.e., the class definitions) have been created for you, but you'll have to fill them in. Some migration files have been created for you (again, just outlines), but feel free to write them however you like. The names are only suggestions.
+The basic outlines of your controllers and models (i.e., the class definitions) have been created for you, but you'll have to fill them in. Some migration files have been created for you (again, just outlines), but feel free to write them however you like. The names are only suggestions. You will also find some feature specs written, and a few pending controller and model specs.
 
 To see what Rake tasks you have available to you, type `rake -T` on your command line.
 
@@ -53,7 +53,7 @@ The general application flow should be something like this:
   * The new page should
       1. Have a text field that accepts any number of comma separated genre names
 
-This is pretty complex behavior, so take it slow! You are provided with some feature specs to guide you. You may employ any testing method you want, but you should, at some point, write both controller and model specs. (I'd recommend using an Outside-In testing methodology, but it's totally up to you.)
+This is pretty complex behavior, so take it slow! You are provided with some feature specs to guide you. You may employ any testing method you want, but you should, at some point, write both controller and model specs. Feel free to add more than are currently included. (I'd recommend using an Outside-In testing methodology, but it's totally up to you.)
 
 ## Bonus
 
