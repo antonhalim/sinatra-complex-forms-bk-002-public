@@ -19,6 +19,8 @@ To see what Rake tasks you have available to you, type `rake -T` on your command
 
 The general application flow should be something like this:
 
+(Note: Not all routes have been explicitly laid out for you. Don't forget the POST routes you need to make your forms work!)
+
 1. Movies
   * I should be able to visit the following routes for a given movie
       1. `/movies`
