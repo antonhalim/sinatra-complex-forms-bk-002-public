@@ -8,4 +8,4 @@ ActiveRecord::Base.establish_connection(
   :database => "db/complex_forms_#{ENV['SINATRA_ENV']}.sqlite"
 )
 
-autoload_all 'app'
+require_all 'app'
