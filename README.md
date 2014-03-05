@@ -1,6 +1,7 @@
 ---
 tags: orm, active record, sinatra, rspec, forms
 languages: ruby
+wip
 ---
 
 # Sinatra Complex Forms
