@@ -22,14 +22,12 @@ describe "Movie Features" do
     describe "creating a new movie with existing genres" do
       it "creates a new movie and redirects to the movies index page" do
         Genre.create(name: "Adventure")
-
         visit "/movies/new"
 
         fill_in "Title", with: "Indiana Jones and the Last Crusade"
         fill_in "Actors", with: "Harrison Ford, Sean Connery"
         check "Adventure"
-
-        click "Save"
+        click "Create"
 
         expect(page).to have_content("Indiana Jones and the Last Crusade")
       end
@@ -44,7 +42,6 @@ describe "Movie Features" do
         fill_in "Actors", with: "Judy Garland, Frank Morgan, Ray Bolger"
         check "Adventure"
         fill_in "Other Gners", with: "Family"
-
         click "Save"
 
         expect(page).to have_content("The Wizard of Oz")
