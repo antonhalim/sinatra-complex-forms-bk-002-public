@@ -37,6 +37,18 @@ describe "MoviesController" do
     it "redirects to the movies index page" do
       pending
     end
+
+    context "with a new genre" do
+      it "creates a new movie and a new genre and new actors" do
+        pending
+      end
+    end
+
+    context "with existing genres" do
+      it "creates a new movie and new actors" do
+        pending
+      end
+    end
   end
 
   describe "GET /movies/:id/actors" do
