@@ -1,1 +1,1 @@
-# TODO: write code in here to pre-load the database with houses and candy
+# If it helps, you may add some seed data here to populate your development database.

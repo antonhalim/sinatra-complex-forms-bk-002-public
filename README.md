@@ -11,6 +11,12 @@ We are going to take another look at the Movie domain in this lab. You'll be cre
 
 We want to create a web app that serves as a mini IMDb. We'll be able to add movies to our database, associate them with actors and genres, and be able to view the movies that we've saved. Initially, you won't be creating all of the RESTful routes that you might want, just the barebones essentials, but once you've completed the lab, you may tweak the application to your heart's content.
 
+### Notes
+
+The basic outlines of your controllers and models (i.e., the class definitions) have been created for you, but you'll have to fill them in. Some migration files have been created for you (again, just outlines), but feel free to write them however you like. The names are only suggestions.
+
+To see what Rake tasks you have available to you, type `rake -T` on your command line.
+
 The general application flow should be something like this:
 
 1. Movies
