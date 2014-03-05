@@ -2,16 +2,19 @@ require 'spec_helper'
 
 describe "Movie Features" do
   describe "/movies" do
-    it "displays a list of movies" do
-      action = Genre.create(name: "Action")
-      keanu = Actor.create(name: "Keanu Reeves")
-      the_matrix = Movie.create(title: "The Matrix")
-      the_matrix.genres << action
-      the_matrix.actors << keanu
-      the_matrix.save
+    before do
+      @the_matrix = Movie.create(title: "The Matrix")
 
-      visit '/movies'
+      visit "/movies"
+    end
+
+    it "displays a list of movies" do
       expect(page).to have_content("The Matrix")
+    end
+
+    it "displays the appropriate show links for each movie" do
+      expect(page).to have_css("a[href='/movies/#{@the_matrix.id}/genres']")
+      expect(page).to have_css("a[href='/movies/#{@the_matrix.id}/actors']")
     end
   end
 
