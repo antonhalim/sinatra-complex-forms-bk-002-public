@@ -1,5 +1,5 @@
 ---
-tags: orm, active record, sinatra, rspec, forms
+tags: orm, activerecord, sinatra, rspec, forms
 languages: ruby
 ---
 
