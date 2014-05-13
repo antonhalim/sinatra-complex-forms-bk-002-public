@@ -1,7 +1,7 @@
 ---
   tags: orm, activerecord, sinatra, rspec, forms
   languages: ruby
-  resources: 2
+  resources: 3
 ---
 
 # Sinatra Complex Forms
