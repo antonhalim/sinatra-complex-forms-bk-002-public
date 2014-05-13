@@ -1,6 +1,7 @@
 ---
 tags: orm, activerecord, sinatra, rspec, forms
 languages: ruby
+  resources: 2
 ---
 
 # Sinatra Complex Forms
@@ -58,3 +59,8 @@ This is pretty complex behavior, so take it slow! You are provided with some fea
 
 1. Create the `/movies/:id/edit` route.
 2. Ceate the rest of the RESTful routes you might want for this application.
+
+## Resources
+* [Surreal Detective](http://surrealdetective.github.io/) - [The Nested Ruby Params Hash for Complex HTML Forms and Sinatra](http://surrealdetective.github.io/blog/2013/07/01/the-nested-ruby-params-hash-for-complex-html-forms-and-sinatra/)
+* [Screencasts](http://screencasts.org/) - [Using ActiveRecord with Sinatra](http://screencasts.org/episodes/activerecord-with-sinatra)
+* [Screencasts](http://screencasts.org/) - [Configuring ActiveRecord in Sinatra](http://screencasts.org/episodes/configuring-activerecord-in-sinatra)
