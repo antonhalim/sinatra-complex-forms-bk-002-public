@@ -33,8 +33,9 @@ describe "Genre Features" do
     before do
       family = Genre.create(name: "Family")
       @judy = Actor.create(name: "Judy Garland")
-      family.actors << @judy
-      family.save
+      wiz = Movie.create(title: "The Wizard of Oz")
+      wiz.actors << @judy
+      family.movies << wiz
 
       visit "/genres/#{family.id}/actors"
     end
