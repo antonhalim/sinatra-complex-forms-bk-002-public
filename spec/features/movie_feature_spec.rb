@@ -28,7 +28,6 @@ describe "Movie Features" do
         fill_in "Actor names", with: "Harrison Ford, Sean Connery"
         check "Adventure"
         click_button "Create"
-
         expect(page).to have_content("Indiana Jones and the Last Crusade")
       end
     end
