@@ -22,7 +22,7 @@ describe 'Actor Features' do
 
     it "lists all of the actor's movies" do
       @movies.each do |movie|
-        expect(page).to have_content(@movie.title)
+        expect(page).to have_content(movie.title)
       end
     end
 
