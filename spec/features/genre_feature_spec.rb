@@ -23,7 +23,7 @@ describe "Genre Features" do
       visit "/genres/new"
 
       fill_in "Name", with: "Adventure"
-      click "Create"
+      click_button "Create"
 
       expect(page).to have_content("Adventure")
     end
