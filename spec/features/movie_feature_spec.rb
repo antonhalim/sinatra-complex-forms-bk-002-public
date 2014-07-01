@@ -24,10 +24,10 @@ describe "Movie Features" do
         Genre.create(name: "Adventure")
         visit "/movies/new"
 
-        fill_in "Title", with: "Indiana Jones and the Last Crusade"
-        fill_in "Actors", with: "Harrison Ford, Sean Connery"
+        fill_in "Movie Title", with: "Indiana Jones and the Last Crusade"
+        fill_in "Actor names", with: "Harrison Ford, Sean Connery"
         check "Adventure"
-        click "Create"
+        click_button "Create"
 
         expect(page).to have_content("Indiana Jones and the Last Crusade")
       end
@@ -38,11 +38,11 @@ describe "Movie Features" do
         Genre.create(name: "Adventure")
         visit "/movies/new"
 
-        fill_in "Title", with: "The Wizard of Oz"
-        fill_in "Actors", with: "Judy Garland, Frank Morgan, Ray Bolger"
+        fill_in "Movie Title", with: "The Wizard of Oz"
+        fill_in "Actor names", with: "Judy Garland, Frank Morgan, Ray Bolger"
         check "Adventure"
-        fill_in "Other Gners", with: "Family"
-        click "Save"
+        fill_in "Add New Genres", with: "Family"
+        click_button "Create"
 
         expect(page).to have_content("The Wizard of Oz")
       end
