@@ -38,7 +38,10 @@ describe 'Actor Features' do
     before do
       @keanu = Actor.create(name: "Keanu Reeves")
       @genres = [Genre.create(name: "Action"), Genre.create(name: "Thriller")]
-      @keanu.genres << @genres
+      @movies = [Movie.create(title: "The Matrix"), Movie.create(title: "Hardball")]
+      @movies[0].genres << @genres[0]
+      @movies[1].genres << @genres[1]
+      @keanu.movies << @movies
       @keanu.save
 
       visit "/actors/#{@keanu.id}/genres"
