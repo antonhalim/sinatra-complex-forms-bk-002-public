@@ -6,12 +6,10 @@ describe "GenresController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the genres index template" do
-      pending
+    xit "renders the genres index template" do
     end
   end
 
@@ -20,12 +18,10 @@ describe "GenresController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the new genre form" do
-      pending
+    xit "renders the new genre form" do
     end
   end
 
@@ -34,8 +30,7 @@ describe "GenresController" do
       # Setup code here.
     end
 
-    it "redirects to the genres index page" do
-      pending
+    xit "redirects to the genres index page" do
     end
   end
 
@@ -44,12 +39,10 @@ describe "GenresController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the show page for the genre's list of actors" do
-      pending
+    xit "renders the show page for the genre's list of actors" do
     end
   end
 
@@ -58,12 +51,10 @@ describe "GenresController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the show page for the genre's list of movies" do
-      pending
+    xit "renders the show page for the genre's list of movies" do
     end
   end
 end

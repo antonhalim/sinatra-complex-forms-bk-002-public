@@ -6,12 +6,10 @@ describe "ActorsController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the actors index template" do
-      pending
+    xit "renders the actors index template" do
     end
   end
 
@@ -20,12 +18,10 @@ describe "ActorsController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the show page for the actor's list of movies" do
-      pending
+    xit "renders the show page for the actor's list of movies" do
     end
   end
 
@@ -34,12 +30,10 @@ describe "ActorsController" do
       # Setup code here.
     end
 
-    it "responds with a 200 status code" do
-      pending
+    xit "responds with a 200 status code" do
     end
 
-    it "renders the show page for the actor's list of genres" do
-      pending
+    xit "renders the show page for the actor's list of genres" do
     end
   end
 end
